@@ -1,0 +1,18 @@
+s3 {
+   # cat=basic/enable; type=string; label=S3 API key
+   apikey =
+   # cat=basic/enable; type=string; label=S4 API key secret
+   apisecret =
+   # cat=basic/enable; type=string; label=Region
+   region = us-east-1
+   # cat=basic/enable; type=string; label=Version
+   version = latest
+   # cat=basic/enable; type=string; label=Bucket
+   bucket = bucket
+   # cat=basic/enable; type=string; label=Cdn
+   cdn = www.example.com
+   # cat=basic/enable; type=string; label=Protocol
+   protocol = https
+   # cat=basic/enable; type=string; label=baseDir
+   baseDir = /assets/
+}
