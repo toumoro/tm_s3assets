@@ -2,7 +2,7 @@
 
 /***
  *
- * This file is part of the "tm_s3assets" Extension for TYPO3 CMS by Toumoro.com.
+ * This file is part of the "AWS S3 typo3temp assets" Extension for TYPO3 CMS by Toumoro.com.
  *
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.
