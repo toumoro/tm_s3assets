@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'AWS S3 typo3temp assets',
-    'description' => 'Rewrite typo3temp assets to a s3 bucket url',
+    'description' => 'This extension rewrites typo3temp assets to an AWS S3 bucket url.',
     'category' => 'plugin',
     'author' => 'Simon Ouellet',
     'author_email' => 'simon.ouellet@toumoro.com',
