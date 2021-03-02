@@ -26,9 +26,11 @@ class Concat extends \TYPO3\CMS\Core\Page\PageRenderer {
     public function initS3() {
 
         /* Retrieve extension configuration */
-        $this->s3ExtConfiguration = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['tm_s3assets']);
-        $this->s3ExtConfiguration = $this->s3ExtConfiguration['s3.'];
-
+        $this->s3ExtConfiguration = $GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['tm_s3assets']['s3'];
+        if (!$this->s3ExtConfiguration) {
+                $this->s3ExtConfiguration = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['tm_s3assets']);
+                $this->s3ExtConfiguration = $this->s3ExtConfiguration['s3.'];
+        }
 
         $this->S3bucket = $this->s3ExtConfiguration['bucket'];
         $this->S3protocol = $this->s3ExtConfiguration['protocol'];
