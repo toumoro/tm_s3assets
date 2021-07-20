@@ -17,8 +17,4 @@
             "Toumoro\\TmS3assets\\Tests\\": "Tests"
         }
     },
-    "replace": {
-        "tm_s3assets": "self.version",
-        "typo3-ter/tm-s3assets": "self.version"
-    }
-}
+
