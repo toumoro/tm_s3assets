@@ -16,5 +16,6 @@
         "psr-4": {
             "Toumoro\\TmS3assets\\Tests\\": "Tests"
         }
-    },
+    }
+}
 
