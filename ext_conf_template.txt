@@ -14,5 +14,7 @@ s3 {
    # cat=basic/enable; type=string; label=Protocol
    protocol = https
    # cat=basic/enable; type=string; label=baseDir
-   baseDir = /assets/
+   baseDir = assets/
+   # cat=basic/enable; type=string; label=baseDirReplace
+   baseDirReplace = typo3temp/
 }

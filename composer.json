@@ -4,7 +4,8 @@
     "description": "",
     "authors": [],
     "require": {
-        "typo3/cms-core": "^8.7.1"
+        "typo3/cms-core": "^8.7.1 || ^9.5.0 || ^10.4.0",
+        "aws/aws-sdk-php": "^3.54"
     },
     "autoload": {
         "psr-4": {
@@ -15,9 +16,6 @@
         "psr-4": {
             "Toumoro\\TmS3assets\\Tests\\": "Tests"
         }
-    },
-    "replace": {
-        "tm_s3assets": "self.version",
-        "typo3-ter/tm-s3assets": "self.version"
     }
 }
+
